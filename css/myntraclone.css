@@ -123,3 +123,34 @@ header {
     margin: 10px;
 }
 
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(225, 225, 225);
+    margin-bottom: 5px;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerColumn a{
+    text-decoration: none;
+    font-size: 17px;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.footerColumn h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.copyright {
+    color: grey;
+    text-align: end;
+    padding: 15px;
+}
