@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+header {
+    display: flex;
+    height: 80px;
+    background-color: hsl(0, 100%, 100%);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.myntraHome {
+    height: 45px;
+   
+}
+
+.logo_container {
+    margin-left: 4%;
+}
+
+.actionbar {
+    margin-right: 4%;
+}
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px 0;
+    border-bottom: 5px solid none;
+}
+
+.nav_bar a:hover {
+    border-bottom: 5px solid hotpink;
+
+}
+
+.nav_bar a sup {
+    color: red;
+    font-size: 10px;
+}
+
+.searchBar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchicon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: rgba(243, 240, 240, 0.956);
+    color: rgb(95, 95, 95);
+    font-weight: 300;
+    border-radius: 6px 0 0 6px;
+}
+
+.searchinput{
+    background-color: rgba(243, 240, 240, 0.956);
+    color: rgb(95, 95, 95);
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.actionbar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* main section css */
+.bannerContainer {
+    margin: 40px 0;
+}
+
+.bannerImage {
+    width: 100%;
+}
+
+.categoryHeading {
+    text-transform: uppercase;
+    color: rgb(74, 74, 74);
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.saleItems {
+    width: 250px;
+    margin: 10px;
+}
+
